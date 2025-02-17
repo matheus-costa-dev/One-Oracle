@@ -7,7 +7,7 @@
 
 1. [Descrição do projeto](#descrição-do-projeto)
 2. [Tecnologias utilizadas](#tecnologias-utilizadas)
-2. [Acesso ao projeto](#acesso-ao-projeto)
+2. [Acesso ao projeto](#file_folder-acesso-ao-projeto)
 
 ## ✍️ Descrição do projeto  
 
