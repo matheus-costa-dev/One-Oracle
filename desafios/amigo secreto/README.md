@@ -27,4 +27,4 @@ O projeto foi um desafio proposto pela equipe ONE Oracle. O site irá sortear al
 
 # 📁 Acesso ao projeto 
 
-**Indique como é possível baixar ou acessar o código fonte do projeto, seja projeto inicial ou final**
+Para acessar a pagina basta <a href="https://matheus-costa-dev.github.io/One-Oracle/desafios/amigo%20secreto/index.html">Clicar aqui </a>
