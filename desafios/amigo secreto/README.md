@@ -13,6 +13,10 @@
 
 O projeto foi um desafio proposto pela equipe ONE Oracle. O site irá sortear aleatoriamente um amigo dentre uma lista que o usuário forneceu uma lista a ele.
 
+## como usar
+
+![Gravação de Tela 2025-02-18 223653](https://github.com/user-attachments/assets/e8eadba6-cba1-4bef-b501-71ce1ee3511e)
+
 ## 💻 Tecnologias utilizadas
 
 <div align="left">
