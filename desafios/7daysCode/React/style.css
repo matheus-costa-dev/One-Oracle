@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --bg-color: #C4C4C4;
+    --bg-button: #FFCB47;
+    --bg-section: #FFFFFF;
+    --fonte-titulo: "Elsie Swash Caps", serif;
+    --fonte-paragrafo: "Montserrat", serif;
+
+    --color-principal : #000000;
+    --color-secundaria: #f0f0f0;
+}
+
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0; /* Alinha o topo da imagem com o topo da tela */
+    right: 0; /* Alinha a direita da imagem com a direita da tela */
+    width: 100%; /* Ajuste a largura conforme necessário */
+    height: 80%; /* Ajuste a altura conforme necessário */
+    background-image: url('./assets/Vector.png');
+    background-size: contain; /* Ajusta o tamanho da imagem para caber dentro do elemento, mantendo a proporção */
+    background-repeat: no-repeat;
+    background-position: right top; /* Alinha a imagem no canto superior direito do elemento */
+    z-index: -1;
+}
+
+body {
+    background-color: var(--bg-color);
+    margin: 10px 358px;
+}
+
+
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
+    z-index: 1;
+}
+
+
+.header__img {
+    width: 117px;
+    height: 44.84;
+}
+
+
+.header__list {
+    display: flex;
+    align-items: center;
+    list-style: none;    
+    gap: 10px;
+}
+
+
+.header__item {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--fonte-paragrafo);
+}
+
+.header_link {
+    text-decoration: none;
+    color: var(--color-principal);
+}
+
+.container::before{
+    content: "";
+    position: absolute;
+    background-image: url(./assets/imagem-hero1.png);
+    top: 0;
+    right: 9;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: top left;
+    z-index: -1;
+}
+
+.container {
+    display: flex;    
+    flex-direction: column;
+    margin: 100px 0px;
+    font-weight: 250;
+}
+
+.container__section1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container__content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container__titulo {
+    font-family: var(--fonte-titulo);
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.container__paragrafo {
+    font-family: var(--fonte-paragrafo);
+    font-size: 16px;
+}
+
+.container__newsletter {
+    display: flex;
+}
+
+.container__email {
+    border: none;
+    color: var(--fonte-paragrafo);
+    padding: 0px 10px;
+}
+
+.container__botao {
+    padding: 10px;
+    background-color: var(--bg-button);
+    border: none;
+    font-family: var(--fonte-paragrafo);
+    color: var(--color-secundaria);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.container__img1 {
+    width: 100%;
+    object-fit: contain;
+}
+
+.container__section2 {
+    margin: 100px 10px;
+    display: flex;
+    gap: 5%;
+    background-color: var(--bg-section);
+    z-index: 1;
+}
+
+.container__img2 {
+    width: 60%;
+}
+
+
+.container__content2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 25px 5px;
+}
+
+
+.container__list2 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container__item2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.container__elipse {
+    background-color: var(--bg-button);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+
+.container__section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.container__oferta {
+    display: flex;
+    background-color: #FFFFFF;
+    gap: 20px;
+    padding: 10px;
+}
+
+.container__imgOferta {
+    width: 40%;
+}
+
+.container_contentOferta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container__link {
+    text-decoration: none;
+    color: #FFCB47;
+}
+
+.container_seta {
+    font-size: 20px;
+    color: #FFCB47;
+}
