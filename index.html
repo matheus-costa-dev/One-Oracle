@@ -3,24 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conteúdos</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div>
-            <h1>Aulas</h1>
-            <ul>
-                <li><a href="aulas/numero-secreto/index.html">Numero secreto</a></li>
-                <li><a href="aulas/portfolio/index.html">Portfólio</a></li>
-            </ul>
-        </div>
-        <div>
-            <h1>Desafios</h1>
-            <ul>
-                <li><a href="desafios/amigo secreto/index.html">Amigo secreto</a></li>
-            </ul>
-        </div>
-    </div>
+    <header class="header">
+        <nav class="header__nav">
+            <h2 class="header__title">Matheus</h2>
+            <section class="header_links">
+                <a class="header__link" href="">Home</a>
+                <a class="header__link" href="">Sobre mim</a>
+            </section>
+        </nav>
+    </header>
+    <main class="container">
+        <h1 class="container__title">Projetos</h1>
+        <section class="container__sections">
+            <section class="container__section">
+                <h2 class="container__subtitle">Aulas</h2>
+                <ul class="container__list">
+                    <li class="container__item"><a class="container__link" href="">a</a></li>
+                    <li class="container__item"><a class="container__link" href="">b</a> </li>
+                </ul>
+            </section>
+            <section class="container__section">
+                <h2 class="container__subtitle">Desafios</h2>
+                <ul class="container__list">
+                    <li class="container__item"><a class="container__link" href="">Amigo Secreto</a></li>
+                    <li class="container__item">
+                        <h3 class="container__nestedTitle">7 Days of code</h3> 
+                        <ul class="container__nestedList">
+                            <li class="container__nestedItem"><a class="container__link" href="">JavaScript</a></li>
+                            <li class="container__nestedItem"><a class="container__link" href="">React</a></li>
+                        </ul>   
+                    </li>
+                </ul>
+            </section>
+        </section>
+       
+        
+    </main>
+    <footer class="footer"></footer>
+    <script src="script.js"></script>
+
 </body>
 </html>
