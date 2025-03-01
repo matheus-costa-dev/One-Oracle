@@ -60,7 +60,7 @@ body {
     padding: 2% 0%;
 }
 
-.header_links {
+.header__links {
     width: 30%;
    display: flex;
    flex-direction: row;
@@ -70,10 +70,13 @@ body {
 .header__link {
     text-decoration: none;
     color: var(--color-titulo);
+    white-space: nowrap;
+
 }
 
 .container {
     padding: 5%;
+    margin-top: 10%;
 }
 
 .container__title {
@@ -85,13 +88,13 @@ body {
 
 .container__sections {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .container__section {
     display: flex;
     flex-direction: column;
-    margin: 10% 0%;
+    margin: 5% 0%;
     padding: 5%;
     gap: 10px;
     background-color: var(--bg-contaienr);
@@ -131,3 +134,4 @@ body {
     padding: .5% 20%;
     list-style: none;
 }
+
