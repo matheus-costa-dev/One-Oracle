@@ -7,7 +7,7 @@
 :root {
     --bg-principal: #ccc4c4a2;
     --bg-contaienr: #f0f0f000;
-    --bg-img: url(./assets/gifs/bg-insider2.gif);
+    --bg-img: url(./assets/gifs/bg-planets.gif);
 
     --color-header: #D1F8EF;
     --color-titulo:#A1E3F9 ;
@@ -64,25 +64,30 @@ body {
     width: 30%;
    display: flex;
    flex-direction: row;
+   justify-content: center;
+   align-items: center;
    gap: 20%;
 }
 
 .header__link {
     text-decoration: none;
     color: var(--color-titulo);
-    white-space: nowrap;
 
 }
 
 .container {
     padding: 5%;
-    margin-top: 10%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .container__title {
     text-align: center;
     font-family: var(--fonte-principal);
     color: var(--color-titulo);
+    margin-bottom: 5%;
 }
 
 
@@ -94,9 +99,8 @@ body {
 .container__section {
     display: flex;
     flex-direction: column;
-    margin: 5% 0%;
-    padding: 5%;
-    gap: 10px;
+    margin: 0%;
+    padding: 2% 5%;
     background-color: var(--bg-contaienr);
 
 }
@@ -108,7 +112,7 @@ body {
 
 
 .container__list {
-    padding: 0% 10%;
+    padding: 5% 10%;
     font-weight: 900;
     display: flex;
     flex-direction: column;
@@ -127,11 +131,37 @@ body {
 .container__link {
     text-decoration: none;
     color: var(--color-texto);
+    width: 100%;
+}
+
+.container__link:hover {
+    padding: 10px;
+    background-color: var(--bg-principal);
+    text-align: center;
+    width: 100%;
 }
 
 
+.container__nestedList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 .container__nestedItem {
-    padding: .5% 20%;
+    padding: .5% 10%;
     list-style: none;
+    display: flex;
 }
 
+
+
+@media (max-width: 800px) {
+   
+    .container {
+        padding: 30% 0%;
+    }
+
+
+
+}
